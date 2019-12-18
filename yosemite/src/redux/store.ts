@@ -1,8 +1,8 @@
-import {createStore, combineReducers, applyMiddleware} from 'redux'
+import { createStore, combineReducers, applyMiddleware } from 'redux'
 import reduxThunk from 'redux-thunk'
-import {composeWithDevTools} from 'redux-devtools-extension'
+import { composeWithDevTools } from 'redux-devtools-extension'
 
-const increment = (state: any = {counter: 0}) => ({
+const increment = (state: any = { counter: 0 }) => ({
   ...state,
   counter: state.counter + 1,
 })

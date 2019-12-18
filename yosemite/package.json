@@ -7,7 +7,8 @@
     "ios": "react-native run-ios",
     "start": "rndebugger-open --open --port 8081 && react-native start",
     "test": "jest",
-    "postinstall": "rndebugger-open"
+    "postinstall": "rndebugger-open",
+    "fmt": "prettier --write ./src/**"
   },
   "dependencies": {
     "react": "16.9.0",
