@@ -1,7 +1,9 @@
 # react-native-bootstrap
 
+参考に作っていく。
+
 - TypeScript
-- prettierrc
+- prettier
 - react-navigation
 - redux
 - redux devtool
